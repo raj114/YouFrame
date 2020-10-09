@@ -2,8 +2,8 @@
 This is a photo gallery project to demonstrate using Angular 4+ with local Json Server.
 
 # Get started
-Clone the repo
-git clone https://github.com/bryanforbes/intern-angularjson-server --watch db.json
+Clone the repo using
+git clone
 cd intern-angular
 # Install npm packages
 # Install the npm packages described in the package.json and verify that it works:
