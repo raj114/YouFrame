@@ -1,0 +1,19 @@
+<header>Gallery</header>
+<div class="mainFrame">
+<div class="upload">
+  <input type="file" style="display: none" accept='image/*' (change)="preview(fileInput.files)" #fileInput>
+  <button type="button" class="btn btn-default" (click)="fileInput.click()">
+  
+    <span class="glyphicon glyphicon-upload" style="font-size: 22px;"></span> Upload
+   
+  </button>
+</div>
+<div class="images">
+<div  class="imgframe" *ngFor="let i of allArray">
+  <img id={{i.name}} src={{i.url}} height="250" width="350">
+  <p style="background-color: white;height: 30px;border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;">{{i.name}}</p>
+</div>
+</div>
+
+</div>
+<footer>Copyrights by @YouFrame</footer>
